@@ -1,20 +1,20 @@
 <!--pages/man/man.wxml-->
-<view class="top"><image class="tz" src="../../img/通告.png"></image>下午五点在5楼会议室开常委会</view>
+<view class="top"><image class="tz" src="../../img/tg.png"></image>下午五点在5楼会议室开常委会</view>
 <view class="fx">
-<view class="ig"><a><image src="../../img/考勤管理.png"></image>考勤打卡</a></view>
-<view class="ig"><image src="../../img/审批.png"></image>审批管理</view>
-<view class="ig"><image src="../../img/通知.png"></image>通知公告</view>
-<view class="ig"><image src="../../img/会议申请.png"></image>会议管理</view>
-<view class="ig"><image src="../../img/车辆申请.png"></image>车辆管理</view>
-<view class="ig"><image src="../../img/请假.png"></image>请假管理</view>
-<view class="ig"><image src="../../img/出差.png"></image>出差管理</view>
-<view class="ig"><image src="../../img/加班.png"></image>加班管理</view>
-<view class="ig"><image src="../../img/外出.png"></image>外出管理</view>
-<view class="ig"><image src="../../img/问卷.png"></image>问卷调查</view>
-<view class="ig"><image src="../../img/考试.png"></image>在线考试</view>
-<view class="ig"><image src="../../img/云盘.png"></image>我的云盘</view>
-<view class="ig"><image src="../../img/邮件.png"></image>邮件管理</view>
-<view class="ig"><image src="../../img/督查.png"></image>督察督办</view>
-<view class="ig"><image src="../../img/日程安排.png"></image>日程安排</view>
-<view class="ig"><image src="../../img/党建.png"></image>党建管理</view>
+<view class="ig"><button size="mini" bindtap="jump_tz"><image src="../../img/kqgl.png"></image><text>考勤打卡</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/sp.png"></image><text>审批管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/tz.png"></image><text>通知公告</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/hygl.png"></image><text>会议管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/clgl.png"></image><text>车辆管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/qjgl.png"></image><text>请假管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/ccgl.png"></image><text>出差管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/jbgl.png"></image><text>加班管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/wcgl.png"></image><text>外出管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/wjdc.png"></image><text>问卷调查</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/zxks.png"></image><text>在线考试</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/wdyp.png"></image><text>我的云盘</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/yjgl.png"></image><text>邮件管理</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/dcdb.png"></image><text>督察督办</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/rcap.png"></image><text>日程安排</text></button></view>
+<view class="ig"><button size="mini"><image src="../../img/djgl.png"></image><text>党建管理</text></button></view>
 </view>

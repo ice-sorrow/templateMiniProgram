@@ -16,7 +16,7 @@
 		"scopeDataCheck": false
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.11.0",
+	"libVersion": "2.12.1",
 	"appid": "wxfd7cb23f24f52712",
 	"projectname": "wjdc",
 	"debugOptions": {
@@ -50,9 +50,17 @@
 			"current": -1,
 			"list": [
 				{
-					"id": -1,
-					"name": "pages/man/man",
+					"id": 0,
+					"name": "工作台",
 					"pathName": "pages/man/man",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 1,
+					"name": "消息",
+					"pathName": "pages/home/home",
+					"query": "",
 					"scene": null
 				}
 			]

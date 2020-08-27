@@ -5,8 +5,23 @@ Page({
    * 页面的初始数据
    */
   data: {
-    msg:"this is a msg"
+    msg:0,
+    box:[
+      {pen:5} ,
+      {shrit:30}
+    ]
   },
+  add(){
+    this.setData({
+      msg:this.data.msg+1
+    })
+  },
+  // methods:{
+  //   add2(){
+  //     this.data.msg+=1;
+  //     return this.data.msg
+  //   }
+  // }
 
   /**
    * 生命周期函数--监听页面加载
