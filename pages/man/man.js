@@ -7,9 +7,14 @@ Page({
   data: {
     msg:"MSG"
   },
-  jump_tz:function(){
+  jump_notice:function(){
     wx.navigateTo({
       url:'/pages/notice/notice',
+    })
+  },
+  jump_date:function(){
+    wx.navigateTo({
+      url: '/pages/date/date',
     })
   },
   /**
