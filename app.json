@@ -2,18 +2,18 @@
   "pages": [
     "pages/home/home",
     "pages/logs/logs",
-    "pages/index/index",
-    "pages/test/test",
+    "pages/index/index",  
     "pages/man/man",
     "pages/notice/notice",
-    "pages/date/date"
+    "pages/date/date",
+    "pages/date/membook/membook",
+    "pages/cs/cs"
   ],
   "window": {
     "enablePullDownRefresh": false,
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#333",
-    "navigationBarTextStyle": "white",
-    "backgroundColor": "black"
+    "navigationBarTextStyle": "white"
   },
   "style": "v2",
   "sitemapLocation": "sitemap.json",

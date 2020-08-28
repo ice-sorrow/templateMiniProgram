@@ -17,6 +17,8 @@
     "checkInvalidKey": true,
     "checkSiteMap": true,
     "uploadWithSourceMap": true,
+    "useMultiFrameRuntime": false,
+    "useApiHook": false,
     "babelSetting": {
       "ignore": [],
       "disablePlugins": [],
@@ -26,9 +28,7 @@
     "useCompilerModule": true,
     "userConfirmedUseCompilerModuleSwitch": false,
     "packNpmManually": false,
-    "packNpmRelationList": [],
-    "useMultiFrameRuntime": false,
-    "useApiHook": false
+    "packNpmRelationList": []
   },
   "compileType": "miniprogram",
   "libVersion": "2.12.1",
@@ -82,6 +82,13 @@
           "id": -1,
           "name": "pages/date/date",
           "pathName": "pages/date/date",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "测试页面",
+          "pathName": "pages/cs/cs",
           "query": "",
           "scene": null
         }

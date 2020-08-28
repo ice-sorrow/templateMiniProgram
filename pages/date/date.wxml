@@ -1,3 +1,4 @@
+<view class="top"><image class="tz" src="../../img/pic_work/tg.png"></image>下午五点在5楼会议室开常委会</view>
 <!-- 日历年月 -->
 <view class='calendar_title flex_nowrap'>
   <view class='icon' bindtap='lastMonth'>
