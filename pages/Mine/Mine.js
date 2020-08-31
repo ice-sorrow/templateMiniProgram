@@ -1,17 +1,11 @@
-// pages/home/home.js
+// pages/Mine/Mine.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    title:"Sign in"
-  },
-  Sign:function(){
-    
-    wx.switchTab({
-      url:'/pages/Mine/Mine',
-    })
+
   },
 
   /**

@@ -1,13 +1,14 @@
 {
   "pages": [
-    "pages/home/home",
+    "pages/Mine/Mine",
     "pages/logs/logs",
-    "pages/index/index",  
+    "pages/index/index",
     "pages/man/man",
     "pages/notice/notice",
     "pages/date/date",
     "pages/date/membook/membook",
-    "pages/cs/cs"
+    "pages/cs/cs",
+    "pages/home/home"
   ],
   "window": {
     "enablePullDownRefresh": false,
@@ -41,7 +42,7 @@
         "selectedIconPath": "img/pic_home/h1.png"
       },
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/Mine/Mine",
         "text": "我的",
         "iconPath": "img/pic_home/IM.png",
         "selectedIconPath": "img/pic_home/IM1.png"

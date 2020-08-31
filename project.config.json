@@ -91,6 +91,12 @@
           "pathName": "pages/cs/cs",
           "query": "",
           "scene": null
+        },
+        {
+          "id": -1,
+          "name": "login",
+          "pathName": "pages/index/index",
+          "scene": null
         }
       ]
     }
