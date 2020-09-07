@@ -18,11 +18,19 @@ input{
   color:#FFF;
   display: inline-block;
   margin:10rpx 50rpx 20rpx 20rpx;
+  line-height: 42rpx;
 }
 .uw{
   color:#FFF;
   display: inline-block;
   margin:10rpx 78rpx 20rpx 20rpx;
+  line-height: 42rpx;
+}
+.ua{
+  color:#FFF;
+  display: inline-block;
+  margin:10rpx 50rpx 20rpx 20rpx;
+  line-height: 42rpx;
 }
 .i_type{
   border: 4rpx solid #ccc;
@@ -32,10 +40,33 @@ input{
   margin:0 auto;
   margin-bottom: 30rpx;
 }
-button{
+.a_type{
+  position: relative;
+  border: 4rpx solid #ccc;
+  border-radius: 38rpx;
+  box-shadow: 0.375em 0.375em 0 0 rgba(14, 16, 20, 0.125);
+  width: 80%;
+  margin:0 auto;
+  margin-bottom: 30rpx;
+}
+.achive{
   margin-top: 60rpx;
   margin-bottom: 30rpx;
   color: #fff;
   background-color:#3971da;
   box-shadow: 0.375em 0.375em 0 0 rgba(14, 16, 20, 0.125);
+}
+.sub{
+  margin-top: 60rpx;
+  margin-bottom: 30rpx;
+  color: #fff;
+  background-color:#3971da;
+  box-shadow: 0.375em 0.375em 0 0 rgba(14, 16, 20, 0.125);
+}
+image{
+ width: 100rpx;
+ height: 60rpx;
+ position: absolute;
+ left:80%;
+ top:8.5%
 }

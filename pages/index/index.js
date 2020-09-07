@@ -4,21 +4,85 @@ Page({
   /**
    * 页面的初始数据
    */
+  // 自定义data 
   data: {
-    title:"Sign in"
+    title:"Sign in",
+    url:"http://39.100.86.3:8017",
+    img:''
   },
-  Sign:function(){
-    
-    wx.switchTab({
-      url:'/pages/Mine/Mine',
+
+  // 获取input值
+  username:function(e){
+    let val = e.detail.value;
+    this.setData({
+      username:val
     })
+  },
+  password:function(e){
+    let val = e.detail.value;
+    this.setData({
+      password:val
+    })
+  },
+  achive:function(e){
+    let val = e.detail.value;
+    this.setData({
+      achive:val
+    })
+  },
+
+  // 获取验证码
+  checking:function(){
+    let that = this;
+    wx.request({
+      url:that.data.url+'/captchaImage',
+      fail:function(res){
+        console.log(res)
+      },
+      success(res){
+        console.log(res.data)
+        let imgUrl = "data:image/png;base64,"+res.data.img;
+        imgUrl = imgUrl.replace(/[\r\n]/g,"");
+        console.log(imgUrl)
+        that.setData({
+          // baseImgUrl:"data:image/gif;base64,"+res.data.img,
+          img : imgUrl,
+          uuid:res.data.uuid
+        })
+      }
+    })
+  },
+
+  // 登录
+  Sign:function(){
+    // wx.switchTab({
+    //   url:'/pages/Mine/Mine',
+    // })
+    console.log(this.data)
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    let that = this;
+    wx.request({
+      url:that.data.url+'/captchaImage',
+      fail:function(res){
+        console.log(res)
+      },
+      success(res){
+        console.log(res.data)
+        let imgUrl = "data:image/png;base64,"+res.data.img;
+        imgUrl = imgUrl.replace(/[\r\n]/g,"");
+        console.log(imgUrl)
+        that.setData({
+          // baseImgUrl:"data:image/gif;base64,"+res.data.img,
+          img : imgUrl,
+          uuid:res.data.uuid
+        })
+      }
+    })
   },
 
   /**
