@@ -30,7 +30,6 @@ Page({
       achive:val
     })
   },
-
   // 获取验证码
   checking:function(){
     let that = this;
@@ -40,7 +39,6 @@ Page({
         console.log(res)
       },
       success(res){
-        console.log(res.data)
         let imgUrl = "data:image/png;base64,"+res.data.img;
         imgUrl = imgUrl.replace(/[\r\n]/g,"");
         console.log(imgUrl)
@@ -55,12 +53,52 @@ Page({
 
   // 登录
   Sign:function(){
-    // wx.switchTab({
-    //   url:'/pages/Mine/Mine',
-    // })
+    let that = this
+    if (/^\s+$/gi.test(this.data.username) ||this.data.username.length==0||this.data.username=="undefined") {
+      wx.showToast({
+        title: 'title',
+      })
+      };
+    wx.request({
+      url:that.data.url+"/login",
+      method:"post",
+      data:{
+         username : that.data.username,
+         password : that.data.password,
+         code : that.data.achive,
+         uuid : that.data.uuid
+      },
+      fail:function(res){
+        console.log(res)
+      },
+      success:function(res){
+        console.log(res)
+        let code = res.data.code
+        let msg = res.data.msg
+        that.setData({
+          msg : msg,
+          code : code
+        })
+        if(code == 200){
+          wx.showToast({
+            title:res.data.msg,
+            icon: 'success',
+            duration: 1500
+          }),
+          wx.switchTab({
+            url: '../man/man',
+          });
+        }else{
+          wx.showToast({
+            title: res.data.msg,
+            image:"/img/提交失败.png"
+          })
+        }
+      }
+    } )
+  
     console.log(this.data)
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
@@ -72,10 +110,8 @@ Page({
         console.log(res)
       },
       success(res){
-        console.log(res.data)
         let imgUrl = "data:image/png;base64,"+res.data.img;
         imgUrl = imgUrl.replace(/[\r\n]/g,"");
-        console.log(imgUrl)
         that.setData({
           // baseImgUrl:"data:image/gif;base64,"+res.data.img,
           img : imgUrl,
