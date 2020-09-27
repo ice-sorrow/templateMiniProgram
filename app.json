@@ -3,12 +3,13 @@
     "pages/Mine/Mine",
     "pages/logs/logs",
     "pages/index/index",
-    "pages/man/man",
-    "pages/notice/notice",
-    "pages/date/date",
-    "pages/date/membook/membook",
+    "pages/work/work",
+    "pages/work/notice/notice",
+    "pages/work/date/date",
+    "pages/work/date/membook/membook",
     "pages/cs/cs",
-    "pages/home/home"
+    "pages/msg/msg",
+    "pages/address/address"
   ],
   "window": {
     "enablePullDownRefresh": false,
@@ -24,19 +25,19 @@
     "selectedColor": "#87CEFA",
     "list": [
       {
-        "pagePath": "pages/home/home",
+        "pagePath": "pages/msg/msg",
         "text": "消息",
         "iconPath": "img/pic_home/news.png",
         "selectedIconPath": "img/pic_home/news1.png"
       },
       {
-        "pagePath": "pages/man/man",
+        "pagePath": "pages/work/work",
         "text": "工作台",
         "iconPath": "img/pic_home/exam.png",
         "selectedIconPath": "img/pic_home/exam1.png"
       },
       {
-        "pagePath": "pages/logs/logs",
+        "pagePath": "pages/address/address",
         "text": "通讯录",
         "iconPath": "img/pic_home/h.png",
         "selectedIconPath": "img/pic_home/h1.png"

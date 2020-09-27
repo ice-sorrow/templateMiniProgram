@@ -54,11 +54,11 @@ Page({
   // 登录
   Sign:function(){
     let that = this
-    if (/^\s+$/gi.test(this.data.username) ||this.data.username.length==0||this.data.username=="undefined") {
-      wx.showToast({
-        title: 'title',
-      })
-      };
+    // if (/^\s+$/gi.test(this.data.username) ||this.data.username.length==0||this.data.username=="undefined") {
+    //   wx.showToast({
+    //     title: 'title',
+    //   })
+    //   };
     wx.request({
       url:that.data.url+"/login",
       method:"post",
@@ -86,7 +86,7 @@ Page({
             duration: 1500
           }),
           wx.switchTab({
-            url: '../man/man',
+            url: '../work/work',
           });
         }else{
           wx.showToast({

@@ -1,4 +1,4 @@
-<!--pages/man/man.wxml-->
+<!--pages/work/work.wxml-->
 <view class="top"><image class="tz" src="../../img/pic_work/tg.png"></image>下午五点在5楼会议室开常委会</view>
 <view class="fx">
 <view class="ig"><button size="mini" ><image src="../../img/pic_work/kqgl.png"></image><text>考勤打卡</text></button></view>
