@@ -1,2 +1,3 @@
 <!--pages/notice/notice.wxml-->
-<text></text>
+<view class="top"><image class="tz" src="../../../img/pic_work/tg.png"></image>下午五点在5楼会议室开常委会</view>
+<!-- main -->

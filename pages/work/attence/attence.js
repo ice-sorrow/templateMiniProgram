@@ -1,27 +1,18 @@
-// pages/man/man.js
+// pages/work/attence/attence.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    msg:"MSG"
+    name:"刀马",
+    date:"2020.9.29",
+    dep:"销售部",
+    group:"固定组",
+    time_now:"8:03:49",
+    time_config:"8:30:00"
   },
-  jump_notice:function(){
-    wx.navigateTo({
-      url:'/pages/work/notice/notice',
-    })
-  },
-  jump_date:function(){
-    wx.navigateTo({
-      url: '/pages/work/date/date',
-    })
-  },
-  jump_attence:function(){
-    wx.navigateTo({
-      url: '/pages/work/attence/attence',
-    })
-  },
+
   /**
    * 生命周期函数--监听页面加载
    */

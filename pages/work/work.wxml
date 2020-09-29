@@ -1,7 +1,7 @@
 <!--pages/work/work.wxml-->
 <view class="top"><image class="tz" src="../../img/pic_work/tg.png"></image>下午五点在5楼会议室开常委会</view>
 <view class="fx">
-<view class="ig"><button size="mini" ><image src="../../img/pic_work/kqgl.png"></image><text>考勤打卡</text></button></view>
+<view class="ig"><button size="mini" bindtap="jump_attence"><image src="../../img/pic_work/kqgl.png"></image><text>考勤打卡</text></button></view>
 <view class="ig"><button size="mini"><image src="../../img/pic_work/sp.png"></image><text>审批管理</text></button></view>
 <view class="ig"><button size="mini" bindtap="jump_notice"><image src="../../img/pic_work/tz.png"></image><text>通知公告</text></button></view>
 <view class="ig"><button size="mini"><image src="../../img/pic_work/hygl.png"></image><text>会议管理</text></button></view>

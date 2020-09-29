@@ -1,0 +1,18 @@
+<!--pages/work/attence/attence.wxml-->
+<view class="top">
+  <image src="../../../img/pic_work/pic_attence/圆.png"/>
+  <view class="human">
+    <text>{{name}}\n</text>
+    <text class="pos">{{dep}}:{{group}}</text>
+  </view>
+  <span>
+    <!-- <picker mode="date"
+            value={{select}}>
+    </picker> -->
+  </span>
+</view>
+<view class="nag">
+  <image src="../../../img/pic_work/pic_attence/上.png"/>
+  <text>打卡时间\t{{time_now}}</text>
+  <text class="time_c">(上班时间{{time_config}})</text>
+</view>

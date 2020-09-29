@@ -9,7 +9,8 @@
     "pages/work/date/membook/membook",
     "pages/cs/cs",
     "pages/msg/msg",
-    "pages/address/address"
+    "pages/address/address",
+    "pages/work/attence/attence"
   ],
   "window": {
     "enablePullDownRefresh": false,

@@ -31,7 +31,7 @@
     "packNpmRelationList": []
   },
   "compileType": "miniprogram",
-  "libVersion": "2.12.1",
+  "libVersion": "2.13.0",
   "appid": "wxfd7cb23f24f52712",
   "projectname": "wjdc",
   "debugOptions": {
@@ -96,6 +96,13 @@
           "id": -1,
           "name": "工作台（new",
           "pathName": "pages/work/work",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "考勤",
+          "pathName": "pages/work/attence/attence",
           "query": "",
           "scene": null
         }

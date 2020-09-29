@@ -1,0 +1,8 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "考勤打卡",
+  "enablePullDownRefresh": false,
+  "backgroundTextStyle": "dark",
+  "navigationBarBackgroundColor": "#333",
+  "navigationBarTextStyle": "white"
+}

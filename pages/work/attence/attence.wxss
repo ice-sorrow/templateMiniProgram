@@ -1,0 +1,39 @@
+/* pages/work/attence/attence.wxss */
+.top{
+  height: 120rpx;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom:solid 1px #ccc;
+  font-family:"微软雅黑";
+}
+.top .human .pos{
+  color:#666
+}
+.top span{
+  font-size: 12px;
+  margin-left: auto;
+}
+.top image{
+  width: 128rpx;
+  height: 128rpx;
+}
+
+.nag{
+  height: 120rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-bottom:solid 1px #ccc;
+  font-family:"微软雅黑";
+}
+.nag image{
+  width: 64rpx;
+  height: 64rpx;
+}
+.nag .time_c{
+  font-size: 12px;
+  color:#333;
+  margin-left:20rpx;
+}
